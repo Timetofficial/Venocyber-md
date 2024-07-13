@@ -16,18 +16,18 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es sala
 global.github = process.env.GITHUB || "https://github.com/Kingjux/Venocyber-md";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/0584b5b57c8fdde99a583.jpg";
 global.devs = "255742862266";
-global.sudo = process.env.SUDO || "255742862266";
-global.owner = process.env.OWNER_NUMBER || "255742862266";
-global.style = process.env.STYLE || "3";
+global.sudo = process.env.SUDO || "255652248835";
+global.owner = process.env.OWNER_NUMBER || "255652248835";
+global.style = process.env.STYLE || "4";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/0584b5b57c8fdde99a583.jpg";
 global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -45,14 +45,14 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "V",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is 𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃",
-  author: process.env.PACK_AUTHER || "VENOCYBER",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  author: process.env.PACK_AUTHER || "MR HEISME-𝐌𝐃",
+  packname: process.env.PACK_NAME || "MR HEISME-𝐌𝐃",
+  botname: process.env.BOT_NAME || "MR HEISME-𝐌𝐃",
+  ownername: process.env.OWNER_NAME || "MR HEISME",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "VENOCYBER").toUpperCase(),
+  LANG: (process.env.THEME || "MR HEISME-𝐌𝐃").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
