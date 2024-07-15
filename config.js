@@ -14,16 +14,16 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
 global.github = process.env.GITHUB || "https://github.com/Kingjux/Venocyber-md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/CTR0g2ROWwMK7aNQIgjP46";
+global.website = process.env.GURL || "https://chat.whatsapp.com/CTR0g2ROWwMK7aNQIgjP46";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/0584b5b57c8fdde99a583.jpg";
-global.devs = "255742862266";
+global.devs = "255652248835";
 global.sudo = process.env.SUDO || "255652248835";
 global.owner = process.env.OWNER_NUMBER || "255652248835";
 global.style = process.env.STYLE || "4";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
-global.warncount = process.env.WARN_COUNT || 3;
+global.warncount = process.env.WARN_COUNT || 5;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "V",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is 𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃",
+  caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is MR HEISME-𝐌𝐃 ",
   author: process.env.PACK_AUTHER || "MR HEISME-𝐌𝐃",
   packname: process.env.PACK_NAME || "MR HEISME-𝐌𝐃",
   botname: process.env.BOT_NAME || "MR HEISME-𝐌𝐃",
